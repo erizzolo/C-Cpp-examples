@@ -13,6 +13,7 @@
 |[loops_for.c](examples/loops_for.c)|loops: for
 |[loops_do-while.c](examples/loops_do-while.c)|loops: do-while
 |[args.c](examples/args.c)|program arguments
+|[functions.c](examples/functions.c)|functions
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
@@ -22,5 +23,6 @@
 | Exercise | Solution |
 |---|---|
 |[01-baseprint](exercises/01.md)|not provided yet|
+|[02-printFun](exercises/02.md)|not provided yet|
 
 
