@@ -14,6 +14,8 @@
 |[loops_do-while.c](examples/loops_do-while.c)|loops: do-while
 |[args.c](examples/args.c)|program arguments
 |[functions.c](examples/functions.c)|functions
+|[io.cpp](examples/io.cpp)|basic I/O C++ style
+|[pseudorandom.cpp](examples/pseudorandom.cpp)|(pseudo)random numbers
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
