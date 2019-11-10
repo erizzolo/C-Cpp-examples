@@ -19,12 +19,14 @@
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
-> 
+>
 > If they are provided, there is absolutely **NO WARRANTY** that they are correct!!!
 
 | Exercise | Solution |
 |---|---|
-|[01-baseprint](exercises/01.md)|not provided yet|
-|[02-printFun](exercises/02.md)|not provided yet|
-
-
+|[01-baseprint](exercises/01.md)|[here](solutions/baseprintull.c)|
+|[02-printFun](exercises/02.md)|[here](solutions/baseprintfun.c)|
+|[03-random](exercises/03.md)|not provided yet|
+|[04-guess](exercises/04.md)|not provided yet|
+|[05-sseug](exercises/05.md)|not provided yet|
+|[06-tesoro/07-oroset](exercises/06.md)|not provided yet|
