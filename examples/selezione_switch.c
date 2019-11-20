@@ -27,31 +27,31 @@
 
 #include <stdio.h>
 
-int main(int argc, char * argv[])
+int main(int argc, char *argv[])
 {
     /// Assegnazione numero di giorni in base al mese
     /// 1 = gennaio, ..., 12 = dicembre
-    for(int mese = 0; mese <= 12; mese++)
+    for (int mese = 0; mese <= 12; mese++)
     {
         int giorni;
-        switch(mese)
+        switch (mese)
         {
-        case 1:	/// fall-through
-        case 3:	/// fall-through
-        case 5:	/// fall-through
-        case 7:	/// fall-through
-        case 8:	/// fall-through
-        case 10:	/// fall-through
-        case 12:	/// fall-through
+        case 1:  /// fall-through
+        case 3:  /// fall-through
+        case 5:  /// fall-through
+        case 7:  /// fall-through
+        case 8:  /// fall-through
+        case 10: /// fall-through
+        case 12: /// fall-through
             giorni = 31;
             break;
         case 2:
-            giorni = 28;	/// anno non bisestile
+            giorni = 28; /// anno non bisestile
             break;
-        case 4:	/// fall-through
-        case 6:	/// fall-through
-        case 9:	/// fall-through
-        case 11:	/// fall-through
+        case 4:  /// fall-through
+        case 6:  /// fall-through
+        case 9:  /// fall-through
+        case 11: /// fall-through
             giorni = 30;
             break;
         default:
@@ -67,15 +67,15 @@ int main(int argc, char * argv[])
         printf("2. Quote \n");
         printf("0. Uscita \n");
         printf("Immetti la scelta: ");
-        if(scanf("%d", &scelta) == 0)
+        if (scanf("%d", &scelta) == 0)
         {
             /// dato non acquisito
-            scanf("%*[^\n]");	/// elimina tutto fino al newline
+            scanf("%*[^\n]"); /// elimina tutto fino al newline
             printf("scelta non valida\n");
         }
         else
         {
-            switch(scelta)
+            switch (scelta)
             {
             case 1:
                 printf("Ciao, mondo!\n");
@@ -89,10 +89,44 @@ int main(int argc, char * argv[])
                 printf("scelta non valida\n");
             }
         }
-    }
-    while(scelta != 0);    /// termine richieste
+    } while (scelta != 0); /// termine richieste
     printf("Arriverderci!\n");
-
+    {
+#define EXIT_CHAR ('X')
+        /// menu' di scelta con opzione di termine
+        /// come prima ma con opzione di tipo char
+        char scelta = '?';
+        do
+        {
+            printf("G. Greetings \n");
+            printf("Q. Quote \n");
+            printf("%c. Uscita \n", EXIT_CHAR);
+            printf("Immetti la scelta: ");
+            if (scanf(" %c", &scelta) == 0) /// notare lo spazio prima %c, serve a scartare spazi, tabulazioni, newline ....
+            {
+                /// dato non acquisito
+                scanf("%*[^\n]"); /// elimina tutto fino al newline
+                printf("scelta non valida\n");
+            }
+            else
+            {
+                switch (scelta)
+                {
+                case 'G':
+                    printf("Ciao, mondo!\n");
+                    break;
+                case 'Q':
+                    printf("I have a dream! (M.L.King)\n");
+                    break;
+                case EXIT_CHAR:
+                    break;
+                default:
+                    printf("scelta non valida\n");
+                }
+            }
+        } while (scelta != EXIT_CHAR); /// termine richieste
+        printf(" e buonanotte :-)\n");
+    }
     /// termine con codice 0 = successo
     return 0;
 }
