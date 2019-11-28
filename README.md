@@ -28,8 +28,8 @@ git status# C-Cpp-examples
 |---|---|
 |[01-baseprint](exercises/01.md)|[here](solutions/baseprintull.c)|
 |[02-printFun](exercises/02.md)|[here](solutions/baseprintfun.c)|
-|[03-random](exercises/03.md)|[here](solutions/random.cpp)||
-|[04-guess](exercises/04.md)|[here](solutions/guess.cpp)||
-|[05-sseug](exercises/05.md)|[here](solutions/sseug.cpp)||
-|[06-tesoro/07-oroset](exercises/06.md)|not provided yet|
+|[03-random](exercises/03.md)|[here](solutions/random.cpp)|
+|[04-guess](exercises/04.md)|[here](solutions/guess.cpp)|
+|[05-sseug](exercises/05.md)|[here](solutions/sseug.cpp)|
+|[06-tesoro/07-oroset](exercises/06.md)|[here](solutions/tesoro.cpp) & [here](solutions/oroset.cpp)|
 |[08-teleTesoro/09-oroseTelet](exercises/08.md)|not provided yet|
