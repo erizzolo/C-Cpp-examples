@@ -1,4 +1,4 @@
-# C-Cpp-examples
+git status# C-Cpp-examples
 ## C/C++ examples 3[AB]IN
 ### List of examples
 | example | topic |
@@ -16,6 +16,8 @@
 |[functions.c](examples/functions.c)|functions
 |[io.cpp](examples/io.cpp)|basic I/O C++ style
 |[pseudorandom.cpp](examples/pseudorandom.cpp)|(pseudo)random numbers
+|[functions_params.cpp](examples/functions_params.cpp)|functions: parameter passing
+|[functions_signature.cpp](examples/functions_signature.cpp)|functions: signature, overload and default parameters
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
@@ -30,3 +32,4 @@
 |[04-guess](exercises/04.md)|[here](solutions/guess.cpp)||
 |[05-sseug](exercises/05.md)|[here](solutions/sseug.cpp)||
 |[06-tesoro/07-oroset](exercises/06.md)|not provided yet|
+|[08-teleTesoro/09-oroseTelet](exercises/08.md)|not provided yet|
