@@ -18,6 +18,7 @@ git status# C-Cpp-examples
 |[pseudorandom.cpp](examples/pseudorandom.cpp)|(pseudo)random numbers
 |[functions_params.cpp](examples/functions_params.cpp)|functions: parameter passing
 |[functions_signature.cpp](examples/functions_signature.cpp)|functions: signature, overload and default parameters
+|[array.cpp](examples/array.cpp)|arrays: basic declaration and initialization
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
