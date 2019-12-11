@@ -34,3 +34,4 @@
 |[05-sseug](exercises/05.md)|[here](solutions/sseug.cpp)|
 |[06-tesoro/07-oroset](exercises/06.md)|[here](solutions/tesoro.cpp) & [here](solutions/oroset.cpp)|
 |[08-teleTesoro/09-oroseTelet](exercises/08.md)|not provided yet|
+|[10-arrayBaseAlgo](exercises/10.md)|not provided yet|
