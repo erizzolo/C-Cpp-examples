@@ -22,6 +22,7 @@
 |[cstring.cpp](examples/cstring.cpp)|C style strings
 |[arraymD.cpp](examples/arraymD.cpp)|multidimensional arrays example
 |[array2Dcache.cpp](examples/array2Dcache.cpp)|multidimensional arrays and cache
+|[arrays_allocation.cpp](examples/arrays_allocation.cpp)|multidimensional arrays allocation
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
