@@ -20,6 +20,8 @@
 |[array.cpp](examples/array.cpp)|arrays: basic declaration and initialization
 |[array_basic.cpp](examples/array_basic.cpp)|arrays: basic scan forward and backward
 |[cstring.cpp](examples/cstring.cpp)|C style strings
+|[arraymD.cpp](examples/arraymD.cpp)|multidimensional arrays example
+|[array2Dcache.cpp](examples/array2Dcache.cpp)|multidimensional arrays and cache
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
@@ -34,5 +36,5 @@
 |[04-guess](exercises/04.md)|[here](solutions/guess.cpp)|
 |[05-sseug](exercises/05.md)|[here](solutions/sseug.cpp)|
 |[06-tesoro/07-oroset](exercises/06.md)|[here](solutions/tesoro.cpp) & [here](solutions/oroset.cpp)|
-|[08-teleTesoro/09-oroseTelet](exercises/08.md)|not provided yet|
+|[08-teleTesoro/09-oroseTelet](exercises/08.md)|[here](solutions/teleTesoro.cpp) & [here](solutions/oroseTelet.cpp)|
 |[10-arrayBaseAlgo](exercises/10.md)|not provided yet|
