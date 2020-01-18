@@ -24,6 +24,7 @@
 |[array2Dcache.cpp](examples/array2Dcache.cpp)|multidimensional arrays and cache
 |[arrays_allocation.cpp](examples/arrays_allocation.cpp)|multidimensional arrays allocation
 |[struct.cpp](examples/struct.cpp)|struct: basic usage
+|[array_vs_struct.cpp](examples/array_vs_struct.cpp)|array and struct comparison
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
