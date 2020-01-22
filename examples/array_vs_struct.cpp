@@ -52,6 +52,8 @@ tipo funzione()          NO                        SI  \n\
 nidificazione            SI                        SI   \n\
     esempio              array di struct           struct di array  \n\
                          array di array            struct di struct \n\
+confronti ==, <, >, ...  SI                        NO   \n\
+    nota/error           confronto indirizzi       no match for ‘operator...’   \n\
         " << endl;
     }
     /// esempi per array
@@ -63,7 +65,11 @@ nidificazione            SI                        SI   \n\
     fun_a(a);
     int aa[5][3]; // array di array
     s as[10];     // array di struct
-
+    for (int i = 0; i < 3; i++)
+        a[i] = a_copy[i] = 0;
+    cout << (a_copy == a ? "arrays are equals." : "arrays are different.") << endl;
+    cout << (a_copy < a ? "a_copy is less than a." : "a_copy is greater than or equal to a.") << endl;
+    cout << (a_copy > a ? "a_copy is greater than a." : "a_copy is less than or equal to a.") << endl;
     /// esempi per struct
     s d;
     // cin >> d;
@@ -80,6 +86,7 @@ nidificazione            SI                        SI   \n\
     {
         s d;
     };
+    // cout << (d_copy == d ? "structs are equals." : "structs are different.") << endl;
     // successful termination
     return 0;
 }
