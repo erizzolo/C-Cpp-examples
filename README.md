@@ -28,6 +28,7 @@
 | [array_vs_pointer.cpp](examples/array_vs_pointer.cpp)       | array and pointer comparison                          |
 | [recursive.cpp](examples/recursive.cpp)                     | recursive functions example                           |
 | [recursiveProduct.cpp](examples/recursiveProduct.cpp)       | recursive products example                            |
+| [binomialiTest.cpp](examples/binomialiTest.cpp)             | binomial coefficients examples                        |
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
