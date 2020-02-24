@@ -145,7 +145,7 @@ int main()
         /// Cannot cout a variable of type struct: there is no "standard" way ...
         // error: no match for ‘operator<<’ (operand types are ‘std::ostream {aka std::basic_ostream<char>}’ and ‘data’)
         // cout << twin_towers << endl;
-        /// Ok: can assing (copy) a struct variable to another one
+        /// Ok: can assign (copy) a struct variable to another one
         data strike = twin_towers;
         /// Ok: can pass a struct variable (by value i.e. a copy) to a function
         printDataDMY(strike);
