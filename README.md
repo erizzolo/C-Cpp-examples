@@ -29,20 +29,21 @@
 | [recursive.cpp](examples/recursive.cpp)                     | recursive functions example                           |
 | [recursiveProduct.cpp](examples/recursiveProduct.cpp)       | recursive products example                            |
 | [binomialiTest.cpp](examples/binomialiTest.cpp)             | binomial coefficients examples                        |
+| [sorting_steps.cpp](examples/sorting_steps.cpp)             | sorting algorithn derivation example (bubble sort)    |
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
 >
 > If they are provided, there is absolutely **NO WARRANTY** that they are correct!!!
 
-| Exercise                                       | Solution                                                                                         |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| [01-baseprint](exercises/01.md)                | [here](solutions/baseprintull.c)                                                                 |
-| [02-printFun](exercises/02.md)                 | [here](solutions/baseprintfun.c)                                                                 |
-| [03-random](exercises/03.md)                   | [here](solutions/random.cpp)                                                                     |
-| [04-guess](exercises/04.md)                    | [here](solutions/guess.cpp)                                                                      |
-| [05-sseug](exercises/05.md)                    | [here](solutions/sseug.cpp)                                                                      |
-| [06-tesoro/07-oroset](exercises/06.md)         | [here](solutions/tesoro.cpp) & [here](solutions/oroset.cpp)                                      |
-| [08-teleTesoro/09-oroseTelet](exercises/08.md) | [here](solutions/teleTesoro.cpp) & [here](solutions/oroseTelet.cpp)                              |
+| Exercise                                       | Solution                                                                                                                                                   |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [01-baseprint](exercises/01.md)                | [here](solutions/baseprintull.c)                                                                                                                           |
+| [02-printFun](exercises/02.md)                 | [here](solutions/baseprintfun.c)                                                                                                                           |
+| [03-random](exercises/03.md)                   | [here](solutions/random.cpp)                                                                                                                               |
+| [04-guess](exercises/04.md)                    | [here](solutions/guess.cpp)                                                                                                                                |
+| [05-sseug](exercises/05.md)                    | [here](solutions/sseug.cpp)                                                                                                                                |
+| [06-tesoro/07-oroset](exercises/06.md)         | [here](solutions/tesoro.cpp) & [here](solutions/oroset.cpp)                                                                                                |
+| [08-teleTesoro/09-oroseTelet](exercises/08.md) | [here](solutions/teleTesoro.cpp) & [here](solutions/oroseTelet.cpp)                                                                                        |
 | [10-arrayBaseAlgo](exercises/10.md)            | [here](solutions/arrayBaseAlgo.cpp), recursively [here](solutions/arrayBaseAlgoRecursive.cpp)  and with dichotomy [here](solutions/arrayBaseAlgoDicho.cpp) |
-| [11-game](exercises/11.md)                     | not provided yet                                                                                 |
+| [11-game](exercises/11.md)                     | [here](solutions/tris.cpp) & [here](solutions/connectFour.cpp)                                                                                             |
