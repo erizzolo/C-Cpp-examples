@@ -48,4 +48,4 @@
 | [10-arrayBaseAlgo](exercises/10.md)            | [here](solutions/arrayBaseAlgo.cpp), recursively [here](solutions/arrayBaseAlgoRecursive.cpp)  and with dichotomy [here](solutions/arrayBaseAlgoDicho.cpp) |
 | [11-game](exercises/11.md)                     | [here](solutions/tris.cpp) & [here](solutions/connectFour.cpp)                                                                                             |
 | [12-sorting](exercises/12.md)                  | not provided yet                                                                                                                                           |
-| [13-stack](exercises/13.md)                  | not provided yet                                                                                                                                           |
+| [13-stack](exercises/13.md)                    | [here](solutions/stack/stackFLA.cpp), with *modified* [test.cpp](solutions/stack/test.cpp)                                                                 |
