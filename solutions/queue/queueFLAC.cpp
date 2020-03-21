@@ -22,9 +22,23 @@
  * | 13 |              |  7 |
  * | 12 | 11 | 10 |  9 |  8 |
  * size: 4
- * next_insertion: 6
- * [next_removal = (next_insertion - size) % capacity: 2]
+ * insertion: 6
+ * [removal = (insertion - size) % capacity: 2]
  * 
+ * Example with items = letters and CAPACITY = 3
+ * Logical index        0   1   2   3   4   5   6   7   8   ...
+ * Physical index       0   1   2   0   1   2   0   1   2   ...
+ * Oper Size Ins Rem
+ *       0    0  [0]  |   |   |   |   |   |   |   |   |   | ...
+ * I A   1    1   0   | A |   |   |   |   |   |   |   |   | ...
+ * I B   2    2   0   | A | B |   |   |   |   |   |   |   | ...
+ * I C   3   [0]  0   | A | B | C |   |   |   |   |   |   | ...
+ * R A   2    0   1   |   | B | C |   |   |   |   |   |   | ...
+ * I D   3   [1]  1   |   | B | C | D |   |   |   |   |   | ...
+ * R B   2    1   2   |   |   | C | D |   |   |   |   |   | ...
+ * R C   1    1   0   |   |   |   | D |   |   |   |   |   | ...
+ * R D   0    1  [1]  |   |   |   |   |   |   |   |   |   | ...
+ * [ ] means insertion/removal impossible
 */
 
 // definition of queue data type
@@ -33,7 +47,7 @@ struct queue
     item data[CAPACITY]; // the actual data
     int size{0};         // actual number of elements
     int insertion{0};    // actual insertion slot
-    // int removal{0}; // (insertion - size) % capacity
+    // int removal{0};   // (insertion - size) % capacity
 };
 
 // basic operations
@@ -50,9 +64,13 @@ bool insert(queue &q, item i)
     bool result = size(q) < capacity(q); // not full yet
     if (result)
     {
-        q.data[q.insertion] = i;                       // insert into next empty position
-        q.size++;                                      // one element more
-        q.insertion = (q.insertion + 1) % capacity(q); // next empty position (circular)
+        q.data[q.insertion] = i; // insert into next empty position
+        q.size++;                // one element more
+        q.insertion++;           // next empty position (circular)
+        if (q.insertion == capacity(q))
+        {
+            q.insertion = 0;
+        }
     }
     return result;
 }
@@ -61,7 +79,7 @@ bool remove(queue &q, item &i)
     bool result = size(q) > 0; // not empty
     if (result)
     {
-        int removal = q.insertion - q.size; // next removal position (circular)
+        int removal = q.insertion - q.size; // removal position (circular)
         if (removal < 0)
         {
             removal += capacity(q);
@@ -78,7 +96,7 @@ void print(const queue &q, ostream &out /* = cout */, bool newLine /* = true */)
 {
     out << "Queue{ ";
     out << size(q) << "/" << capacity(q) << ", first :";
-    int removal = q.insertion - q.size; // next removal position (circular)
+    int removal = q.insertion - q.size; // first removal position (circular)
     if (removal < 0)
     {
         removal += capacity(q);

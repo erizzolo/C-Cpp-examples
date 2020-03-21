@@ -21,7 +21,7 @@ using item = char;
 #define CAPACITY 10
 
 // implementazione e completamento dichiarazioni
-#include "queueFLAC.cpp"
+#include "queueFLA.cpp"
 
 #define DEBUG 1
 

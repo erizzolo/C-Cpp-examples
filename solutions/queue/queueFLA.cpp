@@ -6,6 +6,7 @@
  * Note:
 */
 
+
 /**
  * A simple way is to insert at the lowest free position like in a stack,
  * and remove from the other end, shifting the rest of the queue.
@@ -13,16 +14,27 @@
  * The situation after 6 insertions (A, B, C, D, E, F) and two removals (A, B)
  * |  C|  D|  E|  F|  4|  5|  6|  7|  8|  9| 10| 11| 12| 13| 14| 15|
  * size: 4
- * next_insertion: 4
- * next_removal: 0  (plus shift !!!)
+ * insertion: 4
+ * removal: 0  (plus shift !!!)
  * 
+ * Example with items = letters
+ *  Insertion at this end (from the top):
+ * 4        | |    | |     | |     | |     | |     | |     | |     | |     | |
+ * 3        | |    | |     | |     | |     | |     | |     | |     | |     | |
+ * 2        | |    | |     | |     |C|     | |     |D|     | |     | |     | |
+ * 1        | |    | |     |B|     |B|     |C|     |C|     |D|     | |     | |
+ * 0        | |    |A|     |A|     |A|     |B|     |B|     |C|     |D|     | |
+ *  Removal (pop) at this end (from the bottom):
+ * size      0      1       2       3       2       3       2       1       0
+ * operation     I      I       I       R       I       R       R       R
+ * item          A      B       C       A       D       B       C       D
 */
 
 // definition of queue data type
 struct queue
 {
     item data[CAPACITY]; // the actual data
-    int size{0};         // actual number of elements
+    int size{0};         // actual number of elements === insertion index
 };
 
 // basic operations

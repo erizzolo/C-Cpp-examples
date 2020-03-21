@@ -28,30 +28,28 @@ using item = int;
 /// main function
 int main(int argc, char *argv[])
 {
-    queue q;    // variable of type queue
-    item i = 1; // an item
+    queue shop;                 // variable of type queue
+    item customer = 1, serving; // an item
     // fill the queue
-    while (insert(q, i))
+    while (insert(shop, customer))
     {
-        cout << "Inserted " << i << ": ";
-        print(q);
-        if (i % 3 == 0)
+        // every third customer entering the shop, one customer is served
+        if (customer % 3 == 0)
         {
-            item d;
-            if (remove(q, d))
-            {
-                cout << "Extracted " << d << ": ";
-                print(q);
-            }
+            remove(shop, serving); // we know it's possible
+            cout << "Serving number " << serving << endl;
         }
-        i++;
+        print(shop);
+        customer++;
     }
+    // the shop is full: close it and serve customers already in the queue
     // empty the queue
-    while (remove(q, i))
+    while (remove(shop, serving))
     {
-        cout << "Extracted " << i << ": ";
-        print(q);
+        cout << "Serving number " << serving << endl;
+        print(shop);
     }
+    // the shop is empty: employees can finally go home and rest...
     // successful termination
     return 0;
 }
