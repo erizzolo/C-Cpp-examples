@@ -31,6 +31,9 @@
 | [binomialiTest.cpp](examples/binomialiTest.cpp)             | binomial coefficients examples                                 |
 | [sorting_steps.cpp](examples/sorting_steps.cpp)             | sorting algorithn derivation example (bubble sort)             |
 | [operators_functions.cpp](examples/operators_functions.cpp) | operator overloading and function parameters (approfondimento) |
+| [alloc_C.c](examples/alloc_C.c) | Dynamic memory allocation (C with stdlib.h) |
+| [alloc_Cpp.cpp](examples/alloc_Cpp.cpp) | Dynamic memory allocation (C++ with cstdlib) |
+| [alloc_Cpp_new_delete.cpp](examples/alloc_Cpp_new_delete.cpp) | Dynamic memory allocation (C++ with new/delete) |
 
 ### Exercises and solutions
 > Solutions to exercises are *optional*: i.e. they may be provided or not
