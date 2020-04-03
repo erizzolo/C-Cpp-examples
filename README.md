@@ -1,5 +1,7 @@
 ## C/C++ examples 3[AB]IN
+
 ### List of examples
+
 | example                                                     | topic                                                          |
 | ----------------------------------------------------------- | -------------------------------------------------------------- |
 | [base.c](examples/base.c)                                   | basic program                                                  |
@@ -36,7 +38,8 @@
 | [alloc_Cpp_new_delete.cpp](examples/alloc_Cpp_new_delete.cpp) | Dynamic memory allocation (C++ with new/delete) |
 
 ### Exercises and solutions
-> Solutions to exercises are *optional*: i.e. they may be provided or not
+
+> Solutions to exercises are *optional*: i.e.they may be provided or not
 >
 > If they are provided, there is absolutely **NO WARRANTY** that they are correct!!!
 
@@ -55,4 +58,5 @@
 | [13-stack](exercises/13.md)                    | [here](solutions/stack/stackFLA.cpp), with *modified* [test.cpp](solutions/stack/test.cpp)                                                                                                                                                                     |
 | [14-queue](exercises/14.md)                    | [inefficient](solutions/queue/queueFLA.cpp), [better](solutions/queue/queueFLAC.cpp), with *modified* [test_queue.cpp](solutions/queue/test_queue.cpp)                                            & [test_queue_char.cpp](solutions/queue/test_queue_char.cpp) |
 | [15-punto](exercises/15.md)                    | [here](solutions/punto.cpp)                                                                                                                                                                                                                                    |
-| [16-retta](exercises/16.md)                    | not provided yet                                                                                                                                                                                                                                               |
+| [16-retta](exercises/16.md)                    | [here](solutions/retta.cpp) or [here](solutions/retta_mq.cpp) and [test](solutions/test_retta.cpp)                                                                                                                                                                                                                             |
+
