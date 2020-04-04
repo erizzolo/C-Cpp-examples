@@ -7,8 +7,6 @@
 */
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 
 using namespace std;
 
@@ -21,7 +19,8 @@ using item = int;
 #define CAPACITY 10
 
 // implementazione e completamento dichiarazioni
-#include "queueFLAC.cpp"
+// #include "queueFLAC.cpp"
+#include "queueDAC.cpp"
 
 #define DEBUG 1
 
@@ -30,8 +29,9 @@ int main(int argc, char *argv[])
 {
     queue shop;                 // variable of type queue
     item customer = 1, serving; // an item
+    const item LAST = 20;
     // fill the queue
-    while (insert(shop, customer))
+    while (insert(shop, customer) && customer < LAST)
     {
         // every third customer entering the shop, one customer is served
         if (customer % 3 == 0)

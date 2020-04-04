@@ -2,41 +2,41 @@
 
 ### List of examples
 
-| example                                                     | topic                                                          |
-| ----------------------------------------------------------- | -------------------------------------------------------------- |
-| [base.c](examples/base.c)                                   | basic program                                                  |
-| [vars.c](examples/vars.c)                                   | basic variable declarations and usage                          |
-| [out.c](examples/out.c)                                     | basic output to stdout                                         |
-| [in.c](examples/in.c)                                       | basic input from stdin                                         |
-| [selezione_if.c](examples/selezione_if.c)                   | if - else                                                      |
-| [selezione_switch.c](examples/selezione_switch.c)           | switch                                                         |
-| [loops_while.c](examples/loops_while.c)                     | loops: while                                                   |
-| [loops_for.c](examples/loops_for.c)                         | loops: for                                                     |
-| [loops_do-while.c](examples/loops_do-while.c)               | loops: do-while                                                |
-| [args.c](examples/args.c)                                   | program arguments                                              |
-| [functions.c](examples/functions.c)                         | functions                                                      |
-| [io.cpp](examples/io.cpp)                                   | basic I/O C++ style                                            |
-| [pseudorandom.cpp](examples/pseudorandom.cpp)               | (pseudo)random numbers                                         |
-| [functions_params.cpp](examples/functions_params.cpp)       | functions: parameter passing                                   |
-| [functions_signature.cpp](examples/functions_signature.cpp) | functions: signature, overload and default parameters          |
-| [array.cpp](examples/array.cpp)                             | arrays: basic declaration and initialization                   |
-| [array_basic.cpp](examples/array_basic.cpp)                 | arrays: basic scan forward and backward                        |
-| [cstring.cpp](examples/cstring.cpp)                         | C style strings                                                |
-| [arraymD.cpp](examples/arraymD.cpp)                         | multidimensional arrays example                                |
-| [array2Dcache.cpp](examples/array2Dcache.cpp)               | multidimensional arrays and cache                              |
-| [arrays_allocation.cpp](examples/arrays_allocation.cpp)     | multidimensional arrays allocation                             |
-| [struct.cpp](examples/struct.cpp)                           | struct: basic usage                                            |
-| [array_vs_struct.cpp](examples/array_vs_struct.cpp)         | array and struct comparison                                    |
-| [array_vs_pointer.cpp](examples/array_vs_pointer.cpp)       | array and pointer comparison                                   |
-| [recursive.cpp](examples/recursive.cpp)                     | recursive functions example                                    |
-| [recursiveProduct.cpp](examples/recursiveProduct.cpp)       | recursive products example                                     |
-| [binomialiTest.cpp](examples/binomialiTest.cpp)             | binomial coefficients examples                                 |
-| [sorting_steps.cpp](examples/sorting_steps.cpp)             | sorting algorithn derivation example (bubble sort)             |
-| [operators_functions.cpp](examples/operators_functions.cpp) | operator overloading and function parameters (approfondimento) |
-| [alloc_C.c](examples/alloc_C.c) | Dynamic memory allocation (C with stdlib.h) |
-| [alloc_Cpp.cpp](examples/alloc_Cpp.cpp) | Dynamic memory allocation (C++ with cstdlib) |
-| [alloc_Cpp_new_delete.cpp](examples/alloc_Cpp_new_delete.cpp) | Dynamic memory allocation (C++ with new/delete) |
-
+| example                                                       | topic                                                          |
+| ------------------------------------------------------------- | -------------------------------------------------------------- |
+| [base.c](examples/base.c)                                     | basic program                                                  |
+| [vars.c](examples/vars.c)                                     | basic variable declarations and usage                          |
+| [out.c](examples/out.c)                                       | basic output to stdout                                         |
+| [in.c](examples/in.c)                                         | basic input from stdin                                         |
+| [selezione_if.c](examples/selezione_if.c)                     | if - else                                                      |
+| [selezione_switch.c](examples/selezione_switch.c)             | switch                                                         |
+| [loops_while.c](examples/loops_while.c)                       | loops: while                                                   |
+| [loops_for.c](examples/loops_for.c)                           | loops: for                                                     |
+| [loops_do-while.c](examples/loops_do-while.c)                 | loops: do-while                                                |
+| [args.c](examples/args.c)                                     | program arguments                                              |
+| [functions.c](examples/functions.c)                           | functions                                                      |
+| [io.cpp](examples/io.cpp)                                     | basic I/O C++ style                                            |
+| [pseudorandom.cpp](examples/pseudorandom.cpp)                 | (pseudo)random numbers                                         |
+| [functions_params.cpp](examples/functions_params.cpp)         | functions: parameter passing                                   |
+| [functions_signature.cpp](examples/functions_signature.cpp)   | functions: signature, overload and default parameters          |
+| [array.cpp](examples/array.cpp)                               | arrays: basic declaration and initialization                   |
+| [array_basic.cpp](examples/array_basic.cpp)                   | arrays: basic scan forward and backward                        |
+| [cstring.cpp](examples/cstring.cpp)                           | C style strings                                                |
+| [arraymD.cpp](examples/arraymD.cpp)                           | multidimensional arrays example                                |
+| [array2Dcache.cpp](examples/array2Dcache.cpp)                 | multidimensional arrays and cache                              |
+| [arrays_allocation.cpp](examples/arrays_allocation.cpp)       | multidimensional arrays allocation                             |
+| [struct.cpp](examples/struct.cpp)                             | struct: basic usage                                            |
+| [array_vs_struct.cpp](examples/array_vs_struct.cpp)           | array and struct comparison                                    |
+| [array_vs_pointer.cpp](examples/array_vs_pointer.cpp)         | array and pointer comparison                                   |
+| [recursive.cpp](examples/recursive.cpp)                       | recursive functions example                                    |
+| [recursiveProduct.cpp](examples/recursiveProduct.cpp)         | recursive products example                                     |
+| [binomialiTest.cpp](examples/binomialiTest.cpp)               | binomial coefficients examples                                 |
+| [sorting_steps.cpp](examples/sorting_steps.cpp)               | sorting algorithn derivation example (bubble sort)             |
+| [operators_functions.cpp](examples/operators_functions.cpp)   | operator overloading and function parameters (approfondimento) |
+| [alloc_C.c](examples/alloc_C.c)                               | Dynamic memory allocation (C with stdlib.h)                    |
+| [alloc_Cpp.cpp](examples/alloc_Cpp.cpp)                       | Dynamic memory allocation (C++ with cstdlib)                   |
+| [alloc_Cpp_new_delete.cpp](examples/alloc_Cpp_new_delete.cpp) | Dynamic memory allocation (C++ with new/delete)                |
+| [data_structures.md](examples/data_structures.md)             | Dynamic and static data structures (summary)                   |
 ### Exercises and solutions
 
 > Solutions to exercises are *optional*: i.e.they may be provided or not
@@ -58,5 +58,5 @@
 | [13-stack](exercises/13.md)                    | [here](solutions/stack/stackFLA.cpp), with *modified* [test.cpp](solutions/stack/test.cpp)                                                                                                                                                                     |
 | [14-queue](exercises/14.md)                    | [inefficient](solutions/queue/queueFLA.cpp), [better](solutions/queue/queueFLAC.cpp), with *modified* [test_queue.cpp](solutions/queue/test_queue.cpp)                                            & [test_queue_char.cpp](solutions/queue/test_queue_char.cpp) |
 | [15-punto](exercises/15.md)                    | [here](solutions/punto.cpp)                                                                                                                                                                                                                                    |
-| [16-retta](exercises/16.md)                    | [here](solutions/retta.cpp) or [here](solutions/retta_mq.cpp) and [test](solutions/test_retta.cpp)                                                                                                                                                                                                                             |
+| [16-retta](exercises/16.md)                    | [here](solutions/retta.cpp) or [here](solutions/retta_mq.cpp) and [test](solutions/test_retta.cpp)                                                                                                                                                             |
 

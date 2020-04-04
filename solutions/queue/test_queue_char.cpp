@@ -7,8 +7,6 @@
 */
 
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 
 using namespace std;
 
@@ -21,17 +19,18 @@ using item = char;
 #define CAPACITY 10
 
 // implementazione e completamento dichiarazioni
-#include "queueFLA.cpp"
+// #include "queueFLA.cpp"
+#include "queueDAC.cpp"
 
 #define DEBUG 1
 
 /// main function
 int main(int argc, char *argv[])
 {
-    queue q;    // variable of type queue
+    queue q;      // variable of type queue
     item i = 'A'; // an item
     // fill the queue
-    while (insert(q, i))
+    while (insert(q, i) && i <= 'Z')
     {
         cout << "Inserted " << i << ": ";
         print(q);
