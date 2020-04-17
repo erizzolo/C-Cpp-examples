@@ -1,19 +1,29 @@
 # Data structures
+
 ## Esempi di implementazioni
-| Struttura | File                                                                 | Note                                             |
-| --------- | -------------------------------------------------------------------- | ------------------------------------------------ |
-| Stack     | [stackFLA.cpp](solutions/../../solutions/stack/stackFLA.cpp)         | statica, fixed length array                      |
-| Stack     | [stackDA.cpp](solutions/../../solutions/stack/stackDA.cpp)           | dinamica, puntatore a memoria dinamica           |
-| Coda      | [queueFLA.cpp](solutions/../../solutions/queue/queueFLA.cpp)         | statica, fixed length array                      |
-| Coda      | [queueFLAC.cpp](solutions/../../solutions/queue/queueFLAC.cpp)       | statica, fixed length circular array             |
-| Coda      | [queueDAC.cpp](solutions/../../solutions/queue/queueDAC.cpp)         | dinamica, puntatore a memoria dinamica circolare |
-| Coda      | [queue2Stacks.cpp](solutions/../../solutions/queue/queue2Stacks.cpp) | statica, tramite due stacks                      |
+
+| Struttura | File                                                    | Note                                                                   |
+| --------- | ------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Stack     | [stackFLA.cpp](../solutions/stack/stackFLA.cpp)         | statica, fixed length array                                            |
+| Stack     | [stackDA.cpp](../solutions/stack/stackDA.cpp)           | dinamica, puntatore a memoria dinamica                                 |
+| Stack     | [stackSLL.cpp](../solutions/stack/stackSLL.cpp)         | dinamica, come lista semplicemente concatenata                         |
+| Coda      | [queueFLA.cpp](../solutions/queue/queueFLA.cpp)         | statica, fixed length array                                            |
+| Coda      | [queueFLAC.cpp](../solutions/queue/queueFLAC.cpp)       | statica, fixed length circular array                                   |
+| Coda      | [queueDAC.cpp](../solutions/queue/queueDAC.cpp)         | dinamica, puntatore a memoria dinamica circolare                       |
+| Coda      | [queue2Stacks.cpp](../solutions/queue/queue2Stacks.cpp) | statica, tramite due stacks                                            |
+| Coda      | [queueSLL.cpp](../solutions/queue/queueSLL.cpp)         | dinamica, come lista semplicemente concatenata                         |
+| Lista     | [listSL.cpp](../ADTLista/listSL.cpp)                    | lista dinamica semplicemente concatenata, con nodi                     |
+| Lista     | [listDL.cpp](../ADTLista/listDL.cpp)                    | lista dinamica doppiamente concatenata, con nodi                       |
+| Lista     | [listSH.cpp](../ADTLista/listSH.cpp)                    | lista dinamica semplicemente concatenata, con array ed indici separati |
+| Lista     | [listDH.cpp](../ADTLista/listDH.cpp)                    | lista dinamica doppiamente concatenata, con array ed indici separati   |
 
 ## Alcune note sulle implementazioni
+
 Abbiamo visto due implementazioni dello stack:
-* stack statico (stackFLA): 
+
+* stack statico (stackFLA):
 *basato su di un array di dimensione costante*
-* stack dinamico (stackDA): 
+* stack dinamico (stackDA):
 *basato su di un puntatore che indirizza una zona di memoria di dimensione variabile allocata dinamicamente*
 
 Vediamo il caso della implementazione stackFLA:
