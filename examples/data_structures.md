@@ -2,20 +2,23 @@
 
 ## Esempi di implementazioni
 
-| Struttura | File                                                    | Note                                                                   |
-| --------- | ------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Stack     | [stackFLA.cpp](../solutions/stack/stackFLA.cpp)         | statica, fixed length array                                            |
-| Stack     | [stackDA.cpp](../solutions/stack/stackDA.cpp)           | dinamica, puntatore a memoria dinamica                                 |
-| Stack     | [stackSLL.cpp](../solutions/stack/stackSLL.cpp)         | dinamica, come lista semplicemente concatenata                         |
-| Coda      | [queueFLA.cpp](../solutions/queue/queueFLA.cpp)         | statica, fixed length array                                            |
-| Coda      | [queueFLAC.cpp](../solutions/queue/queueFLAC.cpp)       | statica, fixed length circular array                                   |
-| Coda      | [queueDAC.cpp](../solutions/queue/queueDAC.cpp)         | dinamica, puntatore a memoria dinamica circolare                       |
-| Coda      | [queue2Stacks.cpp](../solutions/queue/queue2Stacks.cpp) | statica, tramite due stacks                                            |
-| Coda      | [queueSLL.cpp](../solutions/queue/queueSLL.cpp)         | dinamica, come lista semplicemente concatenata                         |
-| Lista     | [listSL.cpp](../ADTLista/listSL.cpp)                    | lista dinamica semplicemente concatenata, con nodi                     |
-| Lista     | [listDL.cpp](../ADTLista/listDL.cpp)                    | lista dinamica doppiamente concatenata, con nodi                       |
-| Lista     | [listSH.cpp](../ADTLista/listSH.cpp)                    | lista dinamica semplicemente concatenata, con array ed indici separati |
-| Lista     | [listDH.cpp](../ADTLista/listDH.cpp)                    | lista dinamica doppiamente concatenata, con array ed indici separati   |
+| Struttura | File                                                        | Note                                                                        |
+| --------- | ----------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Stack     | [stackFLA.cpp](../solutions/stack/stackFLA.cpp)             | statica, fixed length array                                                 |
+| Stack     | [stackDA.cpp](../solutions/stack/stackDA.cpp)               | dinamica, puntatore a memoria dinamica                                      |
+| Stack     | [stackSLL.cpp](../solutions/stack/stackSLL.cpp)             | dinamica, come lista semplicemente concatenata                              |
+| Stack     | [stackFLAT.cpp](../solutions/stack/template/stackFLA.cpp)   | statica, fixed length array, template                                       |
+| Stack     | [stackFLATI.cpp](../solutions/stack/template/stackFLAI.cpp) | statica, fixed length array, template con operazioni interne                |
+| Stack     | [stackFLATC.cpp](../solutions/stack/template/stackFLAC.cpp) | statica, fixed length array, template con operazioni interne e dati private |
+| Coda      | [queueFLA.cpp](../solutions/queue/queueFLA.cpp)             | statica, fixed length array                                                 |
+| Coda      | [queueFLAC.cpp](../solutions/queue/queueFLAC.cpp)           | statica, fixed length circular array                                        |
+| Coda      | [queueDAC.cpp](../solutions/queue/queueDAC.cpp)             | dinamica, puntatore a memoria dinamica circolare                            |
+| Coda      | [queue2Stacks.cpp](../solutions/queue/queue2Stacks.cpp)     | statica, tramite due stacks                                                 |
+| Coda      | [queueSLL.cpp](../solutions/queue/queueSLL.cpp)             | dinamica, come lista semplicemente concatenata                              |
+| Lista     | [listSL.cpp](../ADTLista/listSL.cpp)                        | lista dinamica semplicemente concatenata, con nodi                          |
+| Lista     | [listDL.cpp](../ADTLista/listDL.cpp)                        | lista dinamica doppiamente concatenata, con nodi                            |
+| Lista     | [listSH.cpp](../ADTLista/listSH.cpp)                        | lista dinamica semplicemente concatenata, con array ed indici separati      |
+| Lista     | [listDH.cpp](../ADTLista/listDH.cpp)                        | lista dinamica doppiamente concatenata, con array ed indici separati        |
 
 ## Alcune note sulle implementazioni
 
@@ -40,7 +43,7 @@ Vediamo il caso della implementazione stackDA:
 | nome             | tipo      | dimensione (B)     |
 | ---------------- | --------- | ------------------ |
 | stackDA          | struct    | 8 + sizeof(item *) |
-| stackDA.data     | item*     | sizeof(item *)     |
+| stackDA.data     | item\*    | sizeof(item \*)    |
 | stackDA.capacity | int       | 4                  |
 | stackDA.size     | int       | 4                  |
 | *senza nome*     | *memoria* | *variabile*        |
