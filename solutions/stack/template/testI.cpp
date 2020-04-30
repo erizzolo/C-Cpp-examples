@@ -76,8 +76,18 @@ int main(int argc, char *argv[])
 
     // possibili errori
     // modifiche insensate allo stack sono lecite !!!!
+    if (pie_powers.theSize = 0) // bug = ==
+    {
+        // do nothing
+    }
+    else
+    {
+        // do something on non empty
+        double x;
+        pie_powers.pop(x);
+    }
     pie_powers.data[0] = 47;
-    pie_powers.theSize = 12;
+    // pie_powers.theSize = 12;
     pie_powers.print();
 
     // successful termination

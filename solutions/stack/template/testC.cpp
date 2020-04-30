@@ -76,6 +76,16 @@ int main(int argc, char *argv[])
 
     // possibili errori NON PIU' POSSIBILI
     // modifiche insensate allo stack NON sono lecite !!!!
+    // if (pie_powers.size() = 0) // bug = ==
+    // {
+    //     // do nothing
+    // }
+    // else
+    // {
+    //     // do something on non empty
+    //     double x;
+    //     pie_powers.pop(x);
+    // }
     // error: ‘double stack<double>::data [10]’ is private within this context
     // pie_powers.data[0] = 47;
     // error: ‘size_t stack<double>::theSize’ is private within this context

@@ -37,6 +37,8 @@
 | [alloc_Cpp.cpp](examples/alloc_Cpp.cpp)                       | Dynamic memory allocation (C++ with cstdlib)                   |
 | [alloc_Cpp_new_delete.cpp](examples/alloc_Cpp_new_delete.cpp) | Dynamic memory allocation (C++ with new/delete)                |
 | [data_structures.md](examples/data_structures.md)             | Dynamic and static data structures (summary)                   |
+| [fileIO.md](examples/fileIO.md)                               | File I/O examples (summary)                                    |
+
 ### Exercises and solutions
 
 > Solutions to exercises are *optional*: i.e.they may be provided or not
