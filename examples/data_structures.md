@@ -8,8 +8,8 @@
 | Stack     | [stackDA.cpp](../solutions/stack/stackDA.cpp)               | dinamica, puntatore a memoria dinamica                                      |
 | Stack     | [stackSLL.cpp](../solutions/stack/stackSLL.cpp)             | dinamica, come lista semplicemente concatenata                              |
 | Stack     | [stackFLAT.cpp](../solutions/stack/template/stackFLA.cpp)   | statica, fixed length array, template                                       |
-| Stack     | [stackFLATI.cpp](../solutions/stack/template/stackFLAI.cpp) | statica, fixed length array, template con operazioni interne                |
-| Stack     | [stackFLATC.cpp](../solutions/stack/template/stackFLAC.cpp) | statica, fixed length array, template con operazioni interne e dati private |
+| Stack     | [stackFLATI.cpp](../solutions/stack/template/stackFLATI.cpp) | statica, fixed length array, template con operazioni interne                |
+| Stack     | [stackFLATC.cpp](../solutions/stack/template/stackFLATC.cpp) | statica, fixed length array, template con operazioni interne e dati private |
 | Coda      | [queueFLA.cpp](../solutions/queue/queueFLA.cpp)             | statica, fixed length array                                                 |
 | Coda      | [queueFLAC.cpp](../solutions/queue/queueFLAC.cpp)           | statica, fixed length circular array                                        |
 | Coda      | [queueDAC.cpp](../solutions/queue/queueDAC.cpp)             | dinamica, puntatore a memoria dinamica circolare                            |
